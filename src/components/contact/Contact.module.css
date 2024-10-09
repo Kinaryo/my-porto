@@ -1,0 +1,71 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text); /* Diperbaiki satu tanda minus */
+    margin-top: 120px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%; /* Gunakan width: 100% daripada 100vw untuk menghindari overflow */
+    padding: 40px; /* Kurangi padding agar lebih proporsional */
+    gap: 15px;
+}
+
+.text h2 {
+    font-size: 60px; /* Kurangi ukuran font agar lebih seimbang */
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.text p {
+    font-size: 24px; /* Sesuaikan font agar lebih rapi */
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 15px; /* Atur jarak antar item */
+}
+
+.link {
+    display: flex;
+    align-items:start; /* Pastikan ikon dan teks sejajar secara vertikal */
+    gap: 10px; /* Jarak antara ikon dan teks */
+}
+
+.link a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center; /* Ikon dan teks dalam anchor juga sejajar */
+    gap: 8px; /* Jarak antara ikon dan teks dalam tautan */
+}
+
+.link img {
+    width: 24px; /* Sesuaikan ukuran ikon */
+    height: 24px; /* Pastikan ukuran ikon konsisten */
+    display: block; /* Atur ikon agar tidak ikut sifat inline element */
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .links {
+        align-items: center;
+    }
+}

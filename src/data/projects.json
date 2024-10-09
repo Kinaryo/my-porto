@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Website Oleh-Oleh Papua",
+      "imageSrc": "projects/oleh-oleh.jpg",
+      "description": "Website ini adalah platform yang menyediakan berbagai oleh-oleh khas Papua, seperti batik unik, tenun ikat, kerajinan tangan, dan makanan tradisional, dikembangkan dengan tampilan yang menarik dan navigasi yang mudah untuk membantu pengunjung menemukan produk ( MK Pemrograman Visual )",
+      "skills": ["HTML", "CSS", "JAVASCRIPT"],
+      "demo": "https://kinaryo.github.io/oleh-oleh/",
+      "source": "https://github.com/Kinaryo/oleh-oleh"
+    },
+    {
+      "title": "Portofolio Tailwind by Sandika Galih (WPU)",
+      "imageSrc": "projects/portofolio-tailwind.png",
+      "description": "Website ini portofolio pribadi dengan mengikuti tutorial Portofolio Tailwind dari channel Sandhika Galih (WPU). Proyek ini menggunakan Tailwind CSS untuk membangun tampilan responsif yang modern dan profesional.",
+      "skills": ["HTML", "CSS", "JAVASCRIPT", "Tailwind CSS"],
+      "demo": "https://kinaryo.github.io/portofolio-tailwind-css/",
+      "source": "https://github.com/Kinaryo/portofolio-tailwind-css"
+    }
+  ]

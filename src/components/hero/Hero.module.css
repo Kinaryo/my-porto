@@ -1,0 +1,147 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 190px; /* Ganti margin-top dengan padding-top agar konten tidak bergeser terlalu jauh */
+    padding-bottom: 100px; /* Tambahkan padding bawah untuk menjaga proporsi */
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%; /* Pastikan kontainer memenuhi proporsi yang benar */
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800px;
+    margin-bottom: 30px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(90deg, rgba(255,255,255,1)70%, rgba(255,255,255,0) 120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: left;
+}
+
+.description {
+    font-size: 20px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px ;
+    text-align: justify; 
+}
+.contactBtn{
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 11px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+
+}
+.imageContainer {
+    display: flex;
+    justify-content: center; /* Pusatkan gambar secara horizontal */
+    align-items: center; /* Pusatkan gambar secara vertikal */
+    z-index: 3;
+    margin-left: 40px;
+}
+
+.heroImg {
+    width: 350px;
+    z-index: 1;
+    border-radius: 50px;
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+    /* Untuk menghapus margin-left agar gambar tetap di tengah */
+    margin: 0;
+}
+
+/* Animasi Floating */
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Menggerakkan gambar ke atas */
+    }
+    100% {
+        transform: translateY(0); /* Mengembalikan ke posisi semula */
+    }
+}
+
+/* ilmu baru */
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128px;
+    left: 10vw;
+    border: 764px;
+    background: rgba(25,25,109,0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128px;
+    left: 10vw;
+    border: 764px;
+    background: rgba(25,25,109,0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 250px;
+    top: 246px;
+    right: -25vw;
+    border: 764px;
+    background: rgba(25,25,109,0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-width : 830px){
+    
+    .container {
+        flex-direction: column-reverse;
+    }
+    .content {
+        align-items: center;
+    }
+
+    .imageContainer {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center; /* Pusatkan gambar secara horizontal */
+        align-items: center; /* Pusatkan gambar secara vertikal */
+        z-index: 3;
+    }
+    .heroImg {
+        width: 40%;
+    }
+}

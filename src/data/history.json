@@ -1,0 +1,19 @@
+[
+    {
+      "role": "Fullstack Web Developer",
+      "organisation": "Dicoding Indonesia (Studi Independen Bersertifikat",
+      "startDate": "Agu, 2023",
+      "endDate": "Des, 2023",
+      "experiences": ["Belajar Membuat Front-End Web", "Membuat Back-End Web","Belajar Dasar-Dasar Devops", "Git Github" ],
+      "imageSrc": "history/dicoding.png"
+    },
+    {
+      "role": "Customer Centricity Management for HRC & Youth Segment Customer Intern",
+      "organisation": "PT. Telekomunikasi Selular (Telkomsel)",
+      "startDate": "Feb, 2024",
+      "endDate": "Jun, 2024",
+      "experiences": ["Market Trend Analysis", "Sales Strategy and Planing","Market Research","Marketing strategy and Planning"],
+      "imageSrc": "history/telkomsel.png",
+      "sertifikat":"history/sertifikatTelkomsel.png"
+    }
+]

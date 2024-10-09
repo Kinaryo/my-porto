@@ -1,0 +1,16 @@
+{
+  "certificates": [
+    {
+      "title": "Sertifikat Magang  MSIB 6 Telkomsel",
+      "imageUrl": "sertifikat/telkomsel.png"
+    },
+    {
+      "title": "Sertifikat Dari Directur Sales Telkomsel",
+      "imageUrl": "sertifikat/directurSales.png"
+    },
+    {
+      "title": "Sertifikat Kelulusan MSIB 5 Dicoding",
+      "imageUrl": "sertifikat/dicoding.png"
+    }
+  ]
+}

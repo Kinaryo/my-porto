@@ -1,0 +1,51 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "skills/javascript.png"
+    },
+    {
+      "title": "Dart Basic",
+      "imageSrc": "skills/dart.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "Bootstrap",
+      "imageSrc": "skills/bootstrap.png"
+    },
+    {
+      "title": "Node.js",
+      "imageSrc": "skills/node.png"
+    },
+    {
+      "title": "MySQL",
+      "imageSrc": "skills/MySQL.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    },
+    {
+      "title": "Canva",
+      "imageSrc": "skills/canva.png"
+    },
+    {
+      "title": "MS.Excel",
+      "imageSrc": "skills/excel.png"
+    }
+  ]
+  

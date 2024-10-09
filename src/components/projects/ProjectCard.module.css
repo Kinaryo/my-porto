@@ -1,0 +1,85 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+    /* display: none; */
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 18px 24px;
+    max-width: 345px;
+    margin-top: 10px;
+}
+.containerImage {
+    max-width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 300px;
+    margin-bottom: 1REM;
+}
+
+.image {
+    margin-bottom: 26px;
+    width: 100%;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan bayangan halus */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+p{
+    text-align: justify;
+}
+.title {
+    font-size: 25px;
+    font-weight: 700;
+}
+.description {
+    margin-top: 6px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.skills {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+}
+.skill {
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 2px 22px;
+}
+.links {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between; /* Atur jarak antara link */
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: var(--color-primary);
+    padding: 10px 30px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: var(--color-primary-dark);
+}
