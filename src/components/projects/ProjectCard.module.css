@@ -10,6 +10,7 @@
     padding: 18px 24px;
     max-width: 345px;
     margin-top: 10px;
+    min-height: 700px;
 }
 .containerImage {
     max-width: 300px;
@@ -36,13 +37,22 @@ p{
     text-align: justify;
 }
 .title {
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 700;
+    height: 50px;
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: left;
+    padding: 0; 
 }
+
 .description {
     margin-top: 6px;
     font-size: 1rem;
     font-weight: 100;
+    height: 200px;
 }
 .skills {
     width: 100%;

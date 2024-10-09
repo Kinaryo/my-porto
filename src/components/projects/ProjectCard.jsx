@@ -17,7 +17,7 @@ export const ProjectCard = ({
             />
             </div>
        
-            <a href="https://kinaryo.github.io/oleh-oleh/"><h3 className={styles.title}>{title}</h3></a>
+            <a href={demo}><h3 className={styles.title}>{title}</h3></a>
             <p className={styles.description}>{description}</p>
             <ul className={styles.skills}>
                 {skills.map((skill, id) => (
