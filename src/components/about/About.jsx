@@ -27,17 +27,17 @@ export const About = () =>{
                         alt="cursor icon" />
                         <div  className={styles.aboutItemText}>
                         <h3>Backend Developer</h3>
-                        <p>aya juga memiliki pemahaman yang baik tentang pengembangan backend. Saya dapat membangun server-side aplikasi menggunakan Node.js dan Express.js. Keahlian saya dalam mengelola database, baik MySQL maupun MongoDB, memungkinkan saya untuk menyimpan dan mengelola data aplikasi secara efektif</p>
+                        <p>Saya juga memiliki pemahaman yang baik tentang pengembangan backend. Saya dapat membangun server-side aplikasi menggunakan Node.js dan Express.js. Keahlian saya dalam mengelola database, baik MySQL maupun MongoDB, memungkinkan saya untuk menyimpan dan mengelola data aplikasi secara efektif</p>
                         </div>
                     </li>
-                     <li className={styles.aboutItem}>
+                     {/* <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/cursorIcon.png")} 
                         alt="cursor icon" />
                         <div  className={styles.aboutItemText}>
                         <h3>Data</h3>
                         <p>Dengan pengalaman yang kuat dalam analisis data, saya mampu mengubah data mentah menjadi informasi yang berharga. Saya menguasai Google Data Studio untuk menciptakan visualisasi data yang menarik dan mudah dipahami, serta Microsoft Excel untuk melakukan analisis data yang mendalam. Keahlian saya ini telah memungkinkan saya untuk memberikan insight yang berharga bagi tim dan membantu dalam pengambilan keputusan bisnis yang strategis.</p>
                         </div>
-                    </li>
+                    </li> */}
 {/*
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/cursorIcon.png")} 
