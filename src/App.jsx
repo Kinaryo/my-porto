@@ -6,7 +6,7 @@ import { Experience } from "./components/experience/experience"
 import { Projects } from "./components/projects/Projects"
 import { Contact } from "./components/contact/Contact"
 import { Sertifikat } from "./components/sertifikat/Sertifikat"
-import { Transkrip } from "./components/transkip/transkip"
+import { Transkrip } from "./components/transkip/Transkip"
 
 function App() {
   return (
