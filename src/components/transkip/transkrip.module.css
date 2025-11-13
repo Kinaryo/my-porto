@@ -1,0 +1,41 @@
+.transkripSection {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--color-text);
+  /* background: rgba(255, 255, 255, 0.02); */
+  border-radius: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transkripImage {
+  width: 80%;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transkripImage:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 830px) {
+  .transkripImage {
+    width: 95%;
+  }
+}

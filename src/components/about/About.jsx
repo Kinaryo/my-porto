@@ -19,7 +19,7 @@ export const About = () =>{
                         alt="cursor icon" />
                         <div className={styles.aboutItemText}>
                         <h3>Frontend Developer</h3>
-                        <p>Saya memiliki keahlian yang kuat dalam membangun antarmuka pengguna yang menarik dan interaktif. Menguasai HTML, CSS, dan JavaScript sebagai fondasi, saya mampu menciptakan tampilan yang responsif dan sesuai dengan berbagai perangkat. Pengalaman saya dengan React JS memungkinkan saya membangun aplikasi web yang kompleks dan efisien. Selain itu, saya juga terbiasa menggunakan Bootstrap untuk mempercepat pengembangan dan memastikan konsistensi tampilan. Dengan fokus pada pengalaman pengguna, saya selalu berusaha menciptakan tampilan yang tidak hanya menarik secara visual, tetapi juga mudah digunakan.</p>
+                        <p>Saya memiliki keahlian dalam membangun antarmuka pengguna yang menarik dan interaktif. Menguasai HTML, CSS, dan JavaScript sebagai fondasi, saya mampu menciptakan tampilan yang responsif dan sesuai dengan berbagai perangkat. Dengan fokus pada pengalaman pengguna, saya selalu berusaha menciptakan tampilan yang tidak hanya menarik secara visual, tetapi juga mudah digunakan.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>

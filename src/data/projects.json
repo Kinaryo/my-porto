@@ -1,18 +1,43 @@
 [
     {
-      "title": "Website Oleh-Oleh Papua",
-      "imageSrc": "projects/oleh-oleh.jpg",
-      "description": "Website ini adalah platform yang menyediakan berbagai oleh-oleh khas Papua, seperti batik unik, tenun ikat, kerajinan tangan, dan makanan tradisional, dikembangkan dengan tampilan yang menarik dan navigasi yang mudah untuk membantu pengunjung menemukan produk ( MK Pemrograman Visual )",
-      "skills": ["HTML", "CSS", "JAVASCRIPT"],
-      "demo": "https://kinaryo.github.io/oleh-oleh/",
-      "source": "https://github.com/Kinaryo/oleh-oleh"
-    },
-    {
-      "title": "Portofolio Tailwind by Sandika Galih (WPU)",
-      "imageSrc": "projects/portofolio-tailwind.png",
-      "description": "Website portofolio pribadi dengan mengikuti tutorial Portofolio Tailwind dari channel Sandhika Galih (WPU). Proyek ini menggunakan Tailwind CSS untuk membangun tampilan responsif yang modern dan profesional.",
-      "skills": ["HTML", "CSS", "JAVASCRIPT", "Tailwind CSS"],
-      "demo": "https://kinaryo.github.io/portofolio-tailwind-css/",
-      "source": "https://github.com/Kinaryo/portofolio-tailwind-css"
-    }
-  ]
+    "title": "Sistem Informasi Pelaporan Kunjungan (SKRIPSI)",
+    "imageSrc": [
+      { "src": "projects/dashboard_admin.jpg", "caption": "Halaman Dashboard Admin" },
+      { "src": "projects/dashboard_sales.jpg", "caption": "Halaman Dashboard Sales" },
+      { "src": "projects/pengecekan_lokasi_sales.jpg", "caption": "Validasi Lokasi Kunjungan" }
+    ],
+"description": "Sistem Informasi Pelaporan Kunjungan adalah aplikasi yang digunakan oleh sales untuk mencatat kunjungan ke outlet, dilengkapi fitur geolokasi untuk verifikasi lokasi, autentikasi dua faktor untuk keamanan, serta dashboard admin untuk memantau aktivitas secara real time.",
+    "skills": ["Laravel", "Bootstrap", "Javascript", "MySQL"],
+    "demo": "",
+    "source": "",
+    "status_demo": false,
+    "status_sourcode": false,
+    "status": "selesai"
+  },
+  {
+    "title": "Website Oleh-Oleh Papua",
+    "imageSrc": [
+      { "src": "projects/oleh-oleh.jpg", "caption": "Halaman Utama" }
+    ],
+          "description": "Website ini adalah platform yang menyediakan berbagai oleh-oleh khas Papua, seperti batik unik, tenun ikat, kerajinan tangan, dan makanan tradisional, dikembangkan dengan tampilan yang menarik dan navigasi yang mudah untuk membantu pengunjung menemukan produk.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://kinaryo.github.io/oleh-oleh/",
+    "source": "https://github.com/Kinaryo/oleh-oleh",
+    "status_demo": true,
+    "status_sourcode": false,
+    "status": "pengembangan"
+  },
+  {
+    "title": "Portofolio Tailwind by Sandika Galih (WPU)",
+    "imageSrc": [
+      { "src": "projects/portofolio-tailwind.png", "caption": "Tampilan Portofolio" }
+    ],
+  "description": "Website portofolio pribadi dengan mengikuti tutorial Portofolio Tailwind dari channel Sandhika Galih (WPU). Proyek ini menggunakan Tailwind CSS untuk membangun tampilan responsif yang modern dan profesional.",
+    "skills": ["HTML", "CSS", "Javascript", "Tailwind CSS"],
+    "demo": "https://kinaryo.github.io/portofolio-tailwind-css/",
+    "source": "https://github.com/Kinaryo/portofolio-tailwind-css",
+    "status_demo": true,
+    "status_sourcode": false,
+    "status": "selesai"
+  }
+]

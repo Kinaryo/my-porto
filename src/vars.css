@@ -10,3 +10,8 @@
     /* fonts  */
     --font-robot : "Roboto";
 }
+
+/* mencegah scrollbar hilang-muncul mempengaruhi layout */
+html, body {
+  scrollbar-gutter: stable both-edges;
+}

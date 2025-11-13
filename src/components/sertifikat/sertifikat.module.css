@@ -1,42 +1,107 @@
 @import "../../vars.css";
 
 .sertifikatSection {
-    padding: 50px 0;
-    text-align: center; 
+  padding: 50px 0;
+  text-align: center;
+  background-color: var(--color-bg, #f9f9f9);
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: var(--color-text, #333);
+  letter-spacing: 2px;
+}
+
+.mySwiper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.slideContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slideContent h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.certImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certImage:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1024px) {
+  .mySwiper {
+    width: 80%;
   }
 
-  h1{
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
+  h1 {
+    font-size: 1.8rem;
   }
-  
-.mySwiper {
-    width: 60%;
-    margin: 0 auto;
+
+  .slideContent h3 {
+    font-size: 1.1rem;
   }
-  
-.slideContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .mySwiper {
+    width: 90%;
+  }
+
+  .slideContent {
     padding: 20px;
-    background-color: white; 
-    border-radius: 10px; 
-     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
-  
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
   .slideContent h3 {
     font-size: 1rem;
-    color: #333;
-    margin-bottom: 1rem;
   }
-  
+}
+
+@media screen and (max-width: 480px) {
+  .mySwiper {
+    width: 95%;
+  }
+
+  .slideContent {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .slideContent h3 {
+    font-size: 0.9rem;
+  }
+
   .certImage {
-    max-width: 100%;
-    height: auto;
     border-radius: 5px;
-    margin-bottom: 20px; 
   }
+}
