@@ -1,7 +1,7 @@
 import styles from "./App.module.css"
 import { Hero } from "./components/hero/hero"
 import { Navbar } from "./components/navbar/Navbar"
-import { About} from "./components/about/About"
+import { About } from "./components/about/About"
 import { Experience } from "./components/experience/experience"
 import { Projects } from "./components/projects/Projects"
 import { Contact } from "./components/contact/Contact"
@@ -11,15 +11,15 @@ import { Transkrip } from "./components/transkip/Transkip"
 function App() {
   return (
     <div className={styles.App}>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Experience/>
-      <Projects/>
-            <Sertifikat/>
-      <Transkrip/>
-      <Contact/>
-      </div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      <Sertifikat />
+      <Transkrip />
+      <Contact />
+    </div>
   )
 }
 

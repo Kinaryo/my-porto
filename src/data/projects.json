@@ -1,12 +1,21 @@
 [
-    {
+  {
     "title": "Sistem Informasi Pelaporan Kunjungan (SKRIPSI)",
     "imageSrc": [
-      { "src": "projects/dashboard_admin.jpg", "caption": "Halaman Dashboard Admin" },
-      { "src": "projects/dashboard_sales.jpg", "caption": "Halaman Dashboard Sales" },
-      { "src": "projects/pengecekan_lokasi_sales.jpg", "caption": "Validasi Lokasi Kunjungan" }
+      {
+        "src": "projects/dashboard_admin.jpg",
+        "caption": "Halaman Dashboard Admin"
+      },
+      {
+        "src": "projects/dashboard_sales.jpg",
+        "caption": "Halaman Dashboard Sales"
+      },
+      {
+        "src": "projects/pengecekan_lokasi_sales.jpg",
+        "caption": "Validasi Lokasi Kunjungan"
+      }
     ],
-"description": "Sistem Informasi Pelaporan Kunjungan adalah aplikasi yang digunakan oleh sales untuk mencatat kunjungan ke outlet, dilengkapi fitur geolokasi untuk verifikasi lokasi, autentikasi dua faktor untuk keamanan, serta dashboard admin untuk memantau aktivitas secara real time.",
+    "description": "Sistem Informasi Pelaporan Kunjungan adalah aplikasi yang digunakan oleh sales untuk mencatat kunjungan ke outlet, dilengkapi fitur geolokasi untuk verifikasi lokasi, autentikasi dua faktor untuk keamanan, serta dashboard admin untuk memantau aktivitas secara real time.",
     "skills": ["Laravel", "Bootstrap", "Javascript", "MySQL"],
     "demo": "",
     "source": "",
@@ -15,11 +24,36 @@
     "status": "selesai"
   },
   {
+    "title": "Web Apps Sistem Informasi Perizinan Kapal (SIPK)",
+    "imageSrc": [
+      {
+        "src": "projects/halaman_pengajuan_user_sipk.jpg",
+        "caption": "Halaman Pengajuan User"
+      },
+      {
+        "src": "projects/landing_page_sipk.jpg",
+        "caption": "Landing Page"
+      },
+      {
+        "src": "projects/dashboard-super-admin_sipk.jpg",
+        "caption": "Dashboard Super Admin"
+      }
+    ],
+    "description": "Sistem Informasi Perizinan Kapal (SIPK) adalah aplikasi web berbasis Laravel yang dirancang untuk mengelola proses pengajuan, verifikasi, dan penerbitan izin kapal secara digital. Sistem ini menyediakan fitur multi-level user, dashboard monitoring serta pengelolaan dokumen.",
+    "skills": ["Laravel", "Bootstrap", "Javascript", "MySQL"],
+    "demo": "https://sisteminformasiperkapalan-production.up.railway.app/",
+    "source": "https://github.com/Kinaryo/SISTEM_INFORMASI_PERKAPALAN",
+    "status_demo": true,
+    "status_sourcode": true,
+    "status": "pengembangan 80%"
+  },
+
+  {
     "title": "Website Oleh-Oleh Papua",
     "imageSrc": [
       { "src": "projects/oleh-oleh.jpg", "caption": "Halaman Utama" }
     ],
-          "description": "Website ini adalah platform yang menyediakan berbagai oleh-oleh khas Papua, seperti batik unik, tenun ikat, kerajinan tangan, dan makanan tradisional, dikembangkan dengan tampilan yang menarik dan navigasi yang mudah untuk membantu pengunjung menemukan produk.",
+    "description": "Website ini adalah platform yang menyediakan berbagai oleh-oleh khas Papua, seperti batik unik, tenun ikat, kerajinan tangan, dan makanan tradisional, dikembangkan dengan tampilan yang menarik dan navigasi yang mudah untuk membantu pengunjung menemukan produk.",
     "skills": ["HTML", "CSS", "Javascript"],
     "demo": "https://kinaryo.github.io/oleh-oleh/",
     "source": "https://github.com/Kinaryo/oleh-oleh",
@@ -27,12 +61,33 @@
     "status_sourcode": false,
     "status": "pengembangan"
   },
+
+  {
+    "title": "Website Statis Company Profile",
+    "imageSrc": [
+      {
+        "src": "projects/company_profile.jpg",
+        "caption": "Landing Page"
+      }
+    ],
+    "description": "Website company profile statis yang dibuat menggunakan HTML, CSS, dan Javascript dengan gaya futuristik bertema ‘Vibe Coding GPT’. Website ini menampilkan informasi perusahaan, layanan, portofolio, dan kontak dengan desain modern, animasi halus, serta tampilan yang responsif.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://kinaryo.github.io/company-profile/",
+    "source": "",
+    "status_demo": true,
+    "status_sourcode": false,
+    "status": "selesai"
+  },
+
   {
     "title": "Portofolio Tailwind by Sandika Galih (WPU)",
     "imageSrc": [
-      { "src": "projects/portofolio-tailwind.png", "caption": "Tampilan Portofolio" }
+      {
+        "src": "projects/portofolio-tailwind.png",
+        "caption": "Tampilan Portofolio"
+      }
     ],
-  "description": "Website portofolio pribadi dengan mengikuti tutorial Portofolio Tailwind dari channel Sandhika Galih (WPU). Proyek ini menggunakan Tailwind CSS untuk membangun tampilan responsif yang modern dan profesional.",
+    "description": "Website portofolio pribadi dengan mengikuti tutorial Portofolio Tailwind dari channel Sandhika Galih (WPU). Proyek ini menggunakan Tailwind CSS untuk membangun tampilan responsif yang modern dan profesional.",
     "skills": ["HTML", "CSS", "Javascript", "Tailwind CSS"],
     "demo": "https://kinaryo.github.io/portofolio-tailwind-css/",
     "source": "https://github.com/Kinaryo/portofolio-tailwind-css",
